@@ -1,0 +1,13 @@
+      <item>
+        <title>#{first_line_of_comments} - #{author_name}</title>
+        <description>#{author_name} made a commit on #{date}</description>
+        <content><![CDATA[
+          <h2>#{author_name}</h2>
+          <p><a href='http://gravatar.com'><img src='#{gravatar}'> #{author_email}</a></p>
+          <p>#{date}</p>
+          <pre>#{comments}</pre>
+        ]]></content>
+        <link></link>
+        <guid isPermaLink='false'>#{guid}</guid>
+        <pubDate>#{date}</pubDate>
+      </item>
