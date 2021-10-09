@@ -5,6 +5,7 @@
 */
 
 const types = [
+      '#issue'
       'patch',
       'chore',
       'contracts',
